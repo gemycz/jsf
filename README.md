@@ -1,19 +1,23 @@
 "# Proyecto-Agenda-Academyca" 
 
 
-* IMPORTANT * READ THIS BEFORE ENTERING IN THE IP ADDRESS * IMPORTANT * ---
+           **** Important Information ****
 
-The way that this works is by cloning a site and looking for form fields to
-rewrite. If the POST fields are not usual methods for posting forms this 
-could fail. If it does, you can always save the HTML, rewrite the forms to
-be standard forms and use the "IMPORT" feature. Additionally, really 
-important:
+For templates, when a POST is initiated to harvest
+credentials, you will need a site for it to redirect.
 
-If you are using an EXTERNAL IP ADDRESS, you need to place the EXTERNAL
-IP address below, not your NAT address. Additionally, if you don't know
-basic networking concepts, and you have a private IP address, you will
-need to do port forwarding to your NAT IP address from your external IP
-address. A browser doesns't know how to communicate with a private IP
-address, so if you don't specify an external IP address if you are using
-this from an external perpective, it will not work. This isn't a SET issue
-this is how networking works
+You can configure this option under:
+
+      /etc/setoolkit/set.config
+
+Edit this file, and change HARVESTER_REDIRECT and
+HARVESTER_URL to the sites you want to redirect to
+after it is posted. If you do not set these, then
+it will not redirect properly. This only goes for
+templates.
+
+--------------------------------------------------------
+
+  1. Java Required
+  2. Google
+  3. Twitter
