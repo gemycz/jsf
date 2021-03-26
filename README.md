@@ -1,17 +1,15 @@
 "# Proyecto-Agenda-Academyca" 
+he first method will allow SET to import a list of pre-defined web
+ applications that it can utilize within the attack.
 
-The Web Attack module is a unique way of utilizing multiple web-based attacks in order to compromise the intended victim.
+ The second method will completely clone a website of your choosing
+ and allow you to utilize the attack vectors within the completely
+ same web application you were attempting to clone.
 
-The Java Applet Attack method will spoof a Java Certificate and deliver a metasploit based payload. Uses a customized java applet created by Thomas Werth to deliver the payload.
-
-The Metasploit Browser Exploit method will utilize select Metasploit browser exploits through an iframe and deliver a Metasploit payload.
-
-The Credential Harvester method will utilize web cloning of a web- site that has a username and password field and harvest all the information posted to the website.
-
-The TabNabbing method will wait for a user to move to a different tab, then refresh the page to something different.
-
-The Web-Jacking Attack method was introduced by white_sheep, emgent. This method utilizes iframe replacements to make the highlighted URL link to appear legitimate however when clicked a window pops up then is replaced with the malicious link. You can edit the link replacement settings in the set_config if its too slow/fast.
-
-The Multi-Attack method will add a combination of attacks through the web attack menu. For example you can utilize the Java Applet, Metasploit Browser, Credential Harvester/Tabnabbing all at once to see which is successful.
-
-The HTA Attack method will allow you to clone a site and perform powershell injection through HTA files which can be used for Windows-based powershell exploitation through the browser.
+ The third method allows you to import your own website, note that you
+ should only have an index.html when using the import website
+ functionality.
+   
+   1) Web Templates
+   2) Site Cloner
+   3) Custom Import
